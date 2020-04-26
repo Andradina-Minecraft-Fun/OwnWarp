@@ -1,0 +1,11 @@
+name: OwnWarp
+main: br.com.centralandradina.ownwarp.main
+version: 0.1
+api-version: 1.15
+  
+depend: 
+  - Essentials
+  
+commands:
+  ownwarp:
+    description: Comando principal
