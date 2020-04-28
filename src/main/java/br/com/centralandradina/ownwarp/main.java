@@ -76,6 +76,7 @@ public class main extends JavaPlugin implements Listener
     			Location location = player.getLocation();
     			try {
 					warps.setWarp(playerName, location);
+					sender.sendMessage("/warp " + playerName + " criado");
 				} catch (Exception e) { }
     		}
     		
@@ -83,6 +84,7 @@ public class main extends JavaPlugin implements Listener
     		if(args[0].equalsIgnoreCase("delete")) {
     			try {
 					warps.removeWarp(playerName);
+					sender.sendMessage("/warp " + playerName + " deletado");
 				} catch (Exception e) { }
     		}
     		
