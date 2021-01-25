@@ -1,3 +1,7 @@
+
+# Join 
+[![Discord](https://i.imgur.com/tyZLFHl.png)](https://discord.gg/cKE8kqGXWK)
+
 # OwnWarp
 Minecraft plugin for players set their own warps
 
