@@ -15,3 +15,11 @@ Minecraft plugin for players set their own warps
 Players who has permission, can create a warp with their name, using ```/ownwarp create``` on the current position.
 
 All players can ```/warps``` to list server warps and players warps. Just ```/warp <PLAYER NAME>``` to teleport to place
+
+# Compile
+
+just clone this repository, and run command
+
+```bash
+mvn compile && mvn package
+```
